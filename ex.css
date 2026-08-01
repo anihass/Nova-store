@@ -1,0 +1,26 @@
+header{
+    background-color: pink;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.a{
+    background-color: red;
+    padding: 30px;
+    display: flex;
+    flex: 1;
+
+}
+.b{
+    background-color: blue;
+    display: flex;
+    flex: 1;
+}
+.c{
+    background-color: yellow;
+    display: flex;
+    flex: 3;
+
+}

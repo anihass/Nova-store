@@ -1,0 +1,136 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #0b262e;
+}
+.header {
+  margin-top: 0px;
+  padding: 0px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  gap: 20px;
+  background-color: #07191e;
+  border-radius: 50px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+
+}
+.branding {
+  display: flex;
+  align-items: center;
+  flex: 0.5;
+  padding-left: 30px;
+
+}
+.header img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.Nova{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-weight: bold;
+  font-size: 30px;
+  color: #02f5a1;
+}
+.Store{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  color: #02f5a1;
+  font-weight: bold;
+  font-size: 30px;
+}
+.search-bar{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  width: 500px;
+  flex: 1;
+  border-radius: 20px;
+  background-color: white;
+}
+.search-bar:hover{
+  border:3px solid #6deabe;
+
+}
+
+#searchicon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  font-size: 20px;
+  border: none;
+  padding: 16px;
+  background-color: #6deabe;
+   border-radius: 20px;
+}
+
+.searchbox {
+  display: flex;
+  flex: 5;
+  padding: 12px;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+}
+.searchbox:focus {
+  outline: none;  
+  border:3px solid #6deabe;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right: none;
+}
+.searchbox::placeholder {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#0b262e ;
+  font-weight: 400;
+  
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  flex: 3;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px; 
+  list-style: none;
+ 
+}
+#navIcons{
+  margin-right: 5px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 15px;
+  color: #6deabe;
+  border-radius: 20px;
+  font-size: 15px;
+  transition: all 0.4s ease;
+}
+.btn:hover {
+  background-color: #02f5a1;
+  color: #07191e;
+  box-shadow: 0 0 15px #02f5a1;
+
+}
+.toggle{
+  background-color: #07191e;
+  border: none;
+}
+.active{
+  background-color: #02f5a1;
+  color: #07191e;
+  box-shadow: 0 0 15px #02f5a1;  
+}
+
